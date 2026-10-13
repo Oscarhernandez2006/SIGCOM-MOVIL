@@ -1,0 +1,16 @@
+.env
+.env.*
+vendor
+node_modules
+tests
+phpunit.xml
+.phpunit.cache
+bootstrap/cache/*.php
+storage/logs/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/framework/testing/*
+storage/inspect_db.php
+Dockerfile
+.dockerignore

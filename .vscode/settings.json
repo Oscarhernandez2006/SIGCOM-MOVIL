@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^find / -type f -path \"\\*/flutter/bin/flutter\" 2>/dev/null \\| head -n 3; ~/Android/Sdk/platform-tools/adb devices$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"/home/developer-oscar-hernandez/Documentos/SIGCOM MOVIL/backend\" && php artisan serve --host=0\\.0\\.0\\.0 --port=8000$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
